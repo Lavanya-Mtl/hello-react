@@ -3,22 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div style={{color:'white', fontSize:'3em', backgroundColor:'palevioletred',textAlign: 'center', paddingTop: 200,paddingBottom: 200,paddingRight:0,paddingLeft:0, width: '50%', margin: 'auto'}}>Hello world!</div>
+
+    
   );
 }
 
